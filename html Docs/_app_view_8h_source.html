@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact Manager: Plik źródłowy C:/Users/tom3k/Documents/!programowanie/!Contact Manager  visual studio/Project1/AppView.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Contact Manager
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a02403b15ef5df26b3d4343d9e6dd2de.html">Project1</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">AppView.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_app_view_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;curses.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;tuple&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="_contact_book_8h.html">ContactBook.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define MENU_WIN_HEIGHT LINES / 3 </span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define MENU_WIN_WIDTH COLS / 4 </span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define INPUT_WIN_HEIGHT LINES / 3 </span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define INPUT_WIN_WIDTH COLS / 2 </span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define STATUS_WIN_HEIGHT LINES / 3 </span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define STATUS_WIN_WIDTH COLS / 4 </span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="_app_view_8h.html#a38de38de36a531b0009692cfa69d4062">   42</a></span><span class="preprocessor">#define MENUDESC_WIN_HEIGHT 3 </span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#define MENUDESC_WIN_WIDTH COLS </span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define DISPLAY_WIN_HEIGHT LINES - MENU_WIN_HEIGHT - MENUDESC_WIN_HEIGHT </span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define DISPLAY_WIN_WIDTH COLS </span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">// POLOZENIE NAZWY OKIEN W KONSOLI</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define WINDOW_NAMES_Y 0 </span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define WINDOW_NAMES_X 2 </span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_app_view.html">   82</a></span><span class="keyword">class </span><a class="code hl_class" href="class_app_view.html">AppView</a> {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="struct_app_view_1_1_window.html">   91</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_app_view_1_1_window.html">Window</a> {</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="struct_app_view_1_1_window.html#a1a52bfa4644ab658c65b6a1d4e54577f">   93</a></span>        std::string <a class="code hl_variable" href="struct_app_view_1_1_window.html#a1a52bfa4644ab658c65b6a1d4e54577f">name</a>; </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="struct_app_view_1_1_window.html#acd891ce68759a018f735eb77421c9694">   98</a></span>        WINDOW* <a class="code hl_variable" href="struct_app_view_1_1_window.html#acd891ce68759a018f735eb77421c9694">handle</a>; </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    } </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>      <a class="code hl_variable" href="class_app_view.html#a85c604450c7546825ea09da2c4445338">wMain</a> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="class_app_view.html#a85c604450c7546825ea09da2c4445338">  102</a></span>    , <a class="code hl_variable" href="class_app_view.html#a4318b36a995f4e8fd1155be77d2f683d">wMenu</a> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="class_app_view.html#a4318b36a995f4e8fd1155be77d2f683d">  104</a></span>    , <a class="code hl_variable" href="class_app_view.html#a1e58cb50aed3306f47e9e21c77043560">wDisplay</a> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="class_app_view.html#a1e58cb50aed3306f47e9e21c77043560">  106</a></span>    , <a class="code hl_variable" href="class_app_view.html#ada8fb6ae6b4baa2b59b046ce28aa14b9">wInput</a> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_app_view.html#ada8fb6ae6b4baa2b59b046ce28aa14b9">  108</a></span>    , <a class="code hl_variable" href="class_app_view.html#ac3c898381e8a4a40b3905b91fbb5d1ef">wStatus</a> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_app_view.html#ac3c898381e8a4a40b3905b91fbb5d1ef">  110</a></span>    , <a class="code hl_variable" href="class_app_view.html#a67fbd3fdcc81c1258a54ae6639facda1">wMenuDesc</a> ;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#a0eb0876e3afa16344d076ced1fcec9ed">drawMenu</a>(<span class="keyword">const</span> std::string title, <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; fields);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_app_view.html#a187d1108ebfac961a24087a286747e99">selectMenuOption</a>(<span class="keyword">const</span> std::string title, <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; fields, <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; desc);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#ad648cd4ed1400a22bf557836b2c72355">drawTable</a>(<span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; fields);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#ad648cd4ed1400a22bf557836b2c72355">drawTable</a>(<span class="keyword">const</span> std::vector &lt;std::pair&lt;int, std::string&gt;&gt;&amp; fields);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_app_view.html#adcd67dfcb3b76517749fd7d9aa9ae3e2">selectTableOption</a>(<span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; fields);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_app_view.html#adcd67dfcb3b76517749fd7d9aa9ae3e2">selectTableOption</a>(<span class="keyword">const</span> std::vector&lt;std::pair&lt;int, std::string&gt;&gt;&amp; fields);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#ac2391be0b7aebcf81971fe7c63bf2f71">printLnMenuDesc</a>(std::string str);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#a98f2f7c241dbb5e20a0891f3de12a534">printLnStatus</a>(std::string str);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#ae97ea012acd92628aac6627f4608644a">clearStatus</a>();</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#a47fa1287bd063e5712b14798905b21cf">clearTable</a>();</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#a38058b59f656d001b764d153959d8a6d">clearInput</a>();</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#aca3c397975947ab5a66d11f09b3cfe28">redrawWindow</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_app_view_1_1_window.html">Window</a>&amp; win);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#abf12944d2675f99452a860c72d5a2721">redrawWindows</a>();</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_app_view.html#ab04ab3a471f6f9d1b688c731a203a356">handleInput</a>(std::string *input);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    std::vector&lt;std::string&gt; <a class="code hl_function" href="class_app_view.html#a0affeb94e8ee165faee6190241906a21">drawInputBox</a>(std::vector&lt;std::pair&lt;std::string, std::string&gt;&gt; labels, <span class="keywordtype">int</span> *key);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_app_view.html#a92a92da141a11f0075397cd93bb20739">init</a>();</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>};</div>
+<div class="ttc" id="a_contact_book_8h_html"><div class="ttname"><a href="_contact_book_8h.html">ContactBook.h</a></div><div class="ttdoc">Definicja klasy ContactBook.</div></div>
+<div class="ttc" id="aclass_app_view_html"><div class="ttname"><a href="class_app_view.html">AppView</a></div><div class="ttdoc">klasa AppView</div><div class="ttdef"><b>Definition</b> AppView.h:82</div></div>
+<div class="ttc" id="aclass_app_view_html_a0affeb94e8ee165faee6190241906a21"><div class="ttname"><a href="class_app_view.html#a0affeb94e8ee165faee6190241906a21">AppView::drawInputBox</a></div><div class="ttdeci">std::vector&lt; std::string &gt; drawInputBox(std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt; labels, int *key)</div><div class="ttdoc">Rysuje obszar wpisywania danych oraz przechwytuje wprowadzane przez użytkownika klawisze.</div><div class="ttdef"><b>Definition</b> AppView.cpp:547</div></div>
+<div class="ttc" id="aclass_app_view_html_a0eb0876e3afa16344d076ced1fcec9ed"><div class="ttname"><a href="class_app_view.html#a0eb0876e3afa16344d076ced1fcec9ed">AppView::drawMenu</a></div><div class="ttdeci">void drawMenu(const std::string title, const std::vector&lt; std::string &gt; &amp;fields)</div><div class="ttdoc">Rysuje menu w oknie wMenu .</div><div class="ttdef"><b>Definition</b> AppView.cpp:79</div></div>
+<div class="ttc" id="aclass_app_view_html_a187d1108ebfac961a24087a286747e99"><div class="ttname"><a href="class_app_view.html#a187d1108ebfac961a24087a286747e99">AppView::selectMenuOption</a></div><div class="ttdeci">int selectMenuOption(const std::string title, const std::vector&lt; std::string &gt; &amp;fields, const std::vector&lt; std::string &gt; &amp;desc)</div><div class="ttdoc">Rysuje menu oraz sprawdza wybór użytkownika w oknie wMenu .</div><div class="ttdef"><b>Definition</b> AppView.cpp:108</div></div>
+<div class="ttc" id="aclass_app_view_html_a1e58cb50aed3306f47e9e21c77043560"><div class="ttname"><a href="class_app_view.html#a1e58cb50aed3306f47e9e21c77043560">AppView::wDisplay</a></div><div class="ttdeci">struct AppView::Window wDisplay</div></div>
+<div class="ttc" id="aclass_app_view_html_a38058b59f656d001b764d153959d8a6d"><div class="ttname"><a href="class_app_view.html#a38058b59f656d001b764d153959d8a6d">AppView::clearInput</a></div><div class="ttdeci">void clearInput()</div><div class="ttdoc">Czyści zawartość okna wInput .</div><div class="ttdef"><b>Definition</b> AppView.cpp:435</div></div>
+<div class="ttc" id="aclass_app_view_html_a4318b36a995f4e8fd1155be77d2f683d"><div class="ttname"><a href="class_app_view.html#a4318b36a995f4e8fd1155be77d2f683d">AppView::wMenu</a></div><div class="ttdeci">struct AppView::Window wMenu</div></div>
+<div class="ttc" id="aclass_app_view_html_a47fa1287bd063e5712b14798905b21cf"><div class="ttname"><a href="class_app_view.html#a47fa1287bd063e5712b14798905b21cf">AppView::clearTable</a></div><div class="ttdeci">void clearTable()</div><div class="ttdoc">Czyści zawartość okna wDisplay .</div><div class="ttdef"><b>Definition</b> AppView.cpp:419</div></div>
+<div class="ttc" id="aclass_app_view_html_a67fbd3fdcc81c1258a54ae6639facda1"><div class="ttname"><a href="class_app_view.html#a67fbd3fdcc81c1258a54ae6639facda1">AppView::wMenuDesc</a></div><div class="ttdeci">struct AppView::Window wMenuDesc</div></div>
+<div class="ttc" id="aclass_app_view_html_a85c604450c7546825ea09da2c4445338"><div class="ttname"><a href="class_app_view.html#a85c604450c7546825ea09da2c4445338">AppView::wMain</a></div><div class="ttdeci">struct AppView::Window wMain</div></div>
+<div class="ttc" id="aclass_app_view_html_a92a92da141a11f0075397cd93bb20739"><div class="ttname"><a href="class_app_view.html#a92a92da141a11f0075397cd93bb20739">AppView::init</a></div><div class="ttdeci">void init()</div><div class="ttdoc">metoda inicjalizująca widok aplikacji.</div><div class="ttdef"><b>Definition</b> AppView.cpp:15</div></div>
+<div class="ttc" id="aclass_app_view_html_a98f2f7c241dbb5e20a0891f3de12a534"><div class="ttname"><a href="class_app_view.html#a98f2f7c241dbb5e20a0891f3de12a534">AppView::printLnStatus</a></div><div class="ttdeci">void printLnStatus(std::string str)</div><div class="ttdoc">Wyświetla komunikat statusowy na ekranie w oknie wStatus .</div><div class="ttdef"><b>Definition</b> AppView.cpp:384</div></div>
+<div class="ttc" id="aclass_app_view_html_ab04ab3a471f6f9d1b688c731a203a356"><div class="ttname"><a href="class_app_view.html#ab04ab3a471f6f9d1b688c731a203a356">AppView::handleInput</a></div><div class="ttdeci">int handleInput(std::string *input)</div><div class="ttdoc">Przechwytuje wprowadzane klawisze przez użytkownika.</div><div class="ttdef"><b>Definition</b> AppView.cpp:500</div></div>
+<div class="ttc" id="aclass_app_view_html_abf12944d2675f99452a860c72d5a2721"><div class="ttname"><a href="class_app_view.html#abf12944d2675f99452a860c72d5a2721">AppView::redrawWindows</a></div><div class="ttdeci">void redrawWindows()</div><div class="ttdoc">Przerysowuje wszystkie okna aplikacji.</div><div class="ttdef"><b>Definition</b> AppView.cpp:468</div></div>
+<div class="ttc" id="aclass_app_view_html_ac2391be0b7aebcf81971fe7c63bf2f71"><div class="ttname"><a href="class_app_view.html#ac2391be0b7aebcf81971fe7c63bf2f71">AppView::printLnMenuDesc</a></div><div class="ttdeci">void printLnMenuDesc(std::string str)</div><div class="ttdoc">Wypisuje opis menu / opis opcji w menu w oknie wMenuDesc .</div><div class="ttdef"><b>Definition</b> AppView.cpp:363</div></div>
+<div class="ttc" id="aclass_app_view_html_ac3c898381e8a4a40b3905b91fbb5d1ef"><div class="ttname"><a href="class_app_view.html#ac3c898381e8a4a40b3905b91fbb5d1ef">AppView::wStatus</a></div><div class="ttdeci">struct AppView::Window wStatus</div></div>
+<div class="ttc" id="aclass_app_view_html_aca3c397975947ab5a66d11f09b3cfe28"><div class="ttname"><a href="class_app_view.html#aca3c397975947ab5a66d11f09b3cfe28">AppView::redrawWindow</a></div><div class="ttdeci">void redrawWindow(const Window &amp;win)</div><div class="ttdoc">Przerysowuje od nowa okno.</div><div class="ttdef"><b>Definition</b> AppView.cpp:452</div></div>
+<div class="ttc" id="aclass_app_view_html_ad648cd4ed1400a22bf557836b2c72355"><div class="ttname"><a href="class_app_view.html#ad648cd4ed1400a22bf557836b2c72355">AppView::drawTable</a></div><div class="ttdeci">void drawTable(const std::vector&lt; std::string &gt; &amp;fields)</div><div class="ttdoc">Rysuje tabelę danych w oknie wDisplay .</div><div class="ttdef"><b>Definition</b> AppView.cpp:176</div></div>
+<div class="ttc" id="aclass_app_view_html_ada8fb6ae6b4baa2b59b046ce28aa14b9"><div class="ttname"><a href="class_app_view.html#ada8fb6ae6b4baa2b59b046ce28aa14b9">AppView::wInput</a></div><div class="ttdeci">struct AppView::Window wInput</div></div>
+<div class="ttc" id="aclass_app_view_html_adcd67dfcb3b76517749fd7d9aa9ae3e2"><div class="ttname"><a href="class_app_view.html#adcd67dfcb3b76517749fd7d9aa9ae3e2">AppView::selectTableOption</a></div><div class="ttdeci">int selectTableOption(const std::vector&lt; std::string &gt; &amp;fields)</div><div class="ttdoc">Rysuje tabelę oraz sprawdza wybór użytkownika w oknie wTable .</div><div class="ttdef"><b>Definition</b> AppView.cpp:228</div></div>
+<div class="ttc" id="aclass_app_view_html_ae97ea012acd92628aac6627f4608644a"><div class="ttname"><a href="class_app_view.html#ae97ea012acd92628aac6627f4608644a">AppView::clearStatus</a></div><div class="ttdeci">void clearStatus()</div><div class="ttdoc">Czyści zawartość okna wStatus .</div><div class="ttdef"><b>Definition</b> AppView.cpp:403</div></div>
+<div class="ttc" id="astruct_app_view_1_1_window_html"><div class="ttname"><a href="struct_app_view_1_1_window.html">AppView::Window</a></div><div class="ttdoc">Struktura reprezentująca okno aplikacji.</div><div class="ttdef"><b>Definition</b> AppView.h:91</div></div>
+<div class="ttc" id="astruct_app_view_1_1_window_html_a1a52bfa4644ab658c65b6a1d4e54577f"><div class="ttname"><a href="struct_app_view_1_1_window.html#a1a52bfa4644ab658c65b6a1d4e54577f">AppView::Window::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> AppView.h:93</div></div>
+<div class="ttc" id="astruct_app_view_1_1_window_html_acd891ce68759a018f735eb77421c9694"><div class="ttname"><a href="struct_app_view_1_1_window.html#acd891ce68759a018f735eb77421c9694">AppView::Window::handle</a></div><div class="ttdeci">WINDOW * handle</div><div class="ttdef"><b>Definition</b> AppView.h:98</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact Manager: Plik źródłowy C:/Users/tom3k/Documents/!programowanie/!Contact Manager  visual studio/Project1/ContactBook.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Contact Manager
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a02403b15ef5df26b3d4343d9e6dd2de.html">Project1</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">ContactBook.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_contact_book_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_contact_8h.html">Contact.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_contact_book.html">   24</a></span><span class="keyword">class </span><a class="code hl_class" href="class_contact_book.html">ContactBook</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">   27</a></span>    std::string <a class="code hl_variable" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">name</a>; </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">   28</a></span>    std::string <a class="code hl_variable" href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">desc</a>; </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_contact_book.html#a1a2bba9ae189fff9e668a4accdb92bc5">   29</a></span>    std::vector&lt;Contact&gt; <a class="code hl_variable" href="class_contact_book.html#a1a2bba9ae189fff9e668a4accdb92bc5">contacts</a>; </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_contact_book.html#a60634a0bfcec403bc5ae4587c7e0e6b3">   30</a></span>    std::string <a class="code hl_variable" href="class_contact_book.html#a60634a0bfcec403bc5ae4587c7e0e6b3">sort_type</a>; </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_function" href="class_contact_book.html#a92d45948e27f775db2cd7d98fe226ea7">ContactBook</a>();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_function" href="class_contact_book.html#a92d45948e27f775db2cd7d98fe226ea7">ContactBook</a>(std::string <a class="code hl_variable" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">name</a>, std::string <a class="code hl_variable" href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">desc</a>);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_function" href="class_contact_book.html#a36c0531dad90e2a08d2c332e3e5bc870">~ContactBook</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#a9458f66cae32d330c00becbaab513824">checkData</a>(std::string <a class="code hl_variable" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">name</a>, std::string <a class="code hl_variable" href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">desc</a>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#a2931a06534f3566e58a8a4ea17bda184">editBook</a>(std::string <a class="code hl_variable" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">name</a>, std::string <a class="code hl_variable" href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">desc</a>);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#a34c8f290ac8b0529cb7e1deb35e33ad5">addContact</a>(<span class="keywordtype">int</span> phone_number, std::string <a class="code hl_variable" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">name</a>, std::string last_name, std::string email);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#ab00dae6c1a2e809e57aecf236763368d">removeContact</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#a8aae1d97243ffaa487423e7c3e4e8264">sortContacts</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    std::vector &lt;std::pair&lt;int, std::string&gt;&gt; <a class="code hl_function" href="class_contact_book.html#a001c4a4b4cc33a4fa2dfbc2e52c4e5d3">searchContacts</a>(std::string input, std::string formula);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// gettery</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    std::vector &lt;std::string&gt; <a class="code hl_function" href="class_contact_book.html#a61c9769fdd421a440da153ca83b407cc">getContactsVstr</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    std::vector &lt;std::pair&lt;int, std::string&gt;&gt; <a class="code hl_function" href="class_contact_book.html#aca185331940dfe7771efdc31fff4da7e">getContactPairs</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    std::string <a class="code hl_function" href="class_contact_book.html#a4433aad277198824841132483751ed57">getName</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    std::string <a class="code hl_function" href="class_contact_book.html#a29f7bdf1d84421a1b797cd67127fd7dc">getDesc</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_class" href="class_contact.html">Contact</a>* <a class="code hl_function" href="class_contact_book.html#ab03c5b328167b841962835637b765c3c">getContact</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    std::vector&lt;Contact&gt; <a class="code hl_function" href="class_contact_book.html#a3bd05a5e261d083ffcb1010a57a4f6dd">getContacts</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_contact_book.html#aeb7623f2a6f4e698f0912db80d424ced">getNumContacts</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="comment">// settery</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#a7c890867c279b75735751d9632e23ec8">setName</a>(std::string <a class="code hl_variable" href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">name</a>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_contact_book.html#a6af7d1b9eafa99a48c90f5abcfa2ec10">setDesc</a>(std::string <a class="code hl_variable" href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">desc</a>);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+<div class="ttc" id="a_contact_8h_html"><div class="ttname"><a href="_contact_8h.html">Contact.h</a></div><div class="ttdoc">Definicja klasy Contact.</div></div>
+<div class="ttc" id="aclass_contact_book_html"><div class="ttname"><a href="class_contact_book.html">ContactBook</a></div><div class="ttdoc">klasa ContactBook</div><div class="ttdef"><b>Definition</b> ContactBook.h:25</div></div>
+<div class="ttc" id="aclass_contact_book_html_a001c4a4b4cc33a4fa2dfbc2e52c4e5d3"><div class="ttname"><a href="class_contact_book.html#a001c4a4b4cc33a4fa2dfbc2e52c4e5d3">ContactBook::searchContacts</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; int, std::string &gt; &gt; searchContacts(std::string input, std::string formula)</div><div class="ttdoc">Wyszukuje kontakty w książce kontaktów na podstawie podanego wejścia i formuły.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:161</div></div>
+<div class="ttc" id="aclass_contact_book_html_a1a2bba9ae189fff9e668a4accdb92bc5"><div class="ttname"><a href="class_contact_book.html#a1a2bba9ae189fff9e668a4accdb92bc5">ContactBook::contacts</a></div><div class="ttdeci">std::vector&lt; Contact &gt; contacts</div><div class="ttdef"><b>Definition</b> ContactBook.h:29</div></div>
+<div class="ttc" id="aclass_contact_book_html_a2931a06534f3566e58a8a4ea17bda184"><div class="ttname"><a href="class_contact_book.html#a2931a06534f3566e58a8a4ea17bda184">ContactBook::editBook</a></div><div class="ttdeci">void editBook(std::string name, std::string desc)</div><div class="ttdoc">Edytuje dane książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:40</div></div>
+<div class="ttc" id="aclass_contact_book_html_a29f7bdf1d84421a1b797cd67127fd7dc"><div class="ttname"><a href="class_contact_book.html#a29f7bdf1d84421a1b797cd67127fd7dc">ContactBook::getDesc</a></div><div class="ttdeci">std::string getDesc()</div><div class="ttdoc">Zwraca opis książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:221</div></div>
+<div class="ttc" id="aclass_contact_book_html_a34c8f290ac8b0529cb7e1deb35e33ad5"><div class="ttname"><a href="class_contact_book.html#a34c8f290ac8b0529cb7e1deb35e33ad5">ContactBook::addContact</a></div><div class="ttdeci">void addContact(int phone_number, std::string name, std::string last_name, std::string email)</div><div class="ttdoc">Dodaje kontakt do książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:82</div></div>
+<div class="ttc" id="aclass_contact_book_html_a36c0531dad90e2a08d2c332e3e5bc870"><div class="ttname"><a href="class_contact_book.html#a36c0531dad90e2a08d2c332e3e5bc870">ContactBook::~ContactBook</a></div><div class="ttdeci">~ContactBook()</div><div class="ttdoc">Destruktor klasy ContactBook.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:67</div></div>
+<div class="ttc" id="aclass_contact_book_html_a3bd05a5e261d083ffcb1010a57a4f6dd"><div class="ttname"><a href="class_contact_book.html#a3bd05a5e261d083ffcb1010a57a4f6dd">ContactBook::getContacts</a></div><div class="ttdeci">std::vector&lt; Contact &gt; getContacts()</div><div class="ttdoc">Zwraca kontener obiektów kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:257</div></div>
+<div class="ttc" id="aclass_contact_book_html_a4433aad277198824841132483751ed57"><div class="ttname"><a href="class_contact_book.html#a4433aad277198824841132483751ed57">ContactBook::getName</a></div><div class="ttdeci">std::string getName()</div><div class="ttdoc">Zwraca nazwę książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:211</div></div>
+<div class="ttc" id="aclass_contact_book_html_a60634a0bfcec403bc5ae4587c7e0e6b3"><div class="ttname"><a href="class_contact_book.html#a60634a0bfcec403bc5ae4587c7e0e6b3">ContactBook::sort_type</a></div><div class="ttdeci">std::string sort_type</div><div class="ttdef"><b>Definition</b> ContactBook.h:30</div></div>
+<div class="ttc" id="aclass_contact_book_html_a61c9769fdd421a440da153ca83b407cc"><div class="ttname"><a href="class_contact_book.html#a61c9769fdd421a440da153ca83b407cc">ContactBook::getContactsVstr</a></div><div class="ttdeci">std::vector&lt; std::string &gt; getContactsVstr()</div><div class="ttdoc">Zwraca kontakty w książce kontaktów jako wektor tekstowych danych kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:195</div></div>
+<div class="ttc" id="aclass_contact_book_html_a6af7d1b9eafa99a48c90f5abcfa2ec10"><div class="ttname"><a href="class_contact_book.html#a6af7d1b9eafa99a48c90f5abcfa2ec10">ContactBook::setDesc</a></div><div class="ttdeci">void setDesc(std::string desc)</div><div class="ttdoc">Ustawia opis książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:245</div></div>
+<div class="ttc" id="aclass_contact_book_html_a7c890867c279b75735751d9632e23ec8"><div class="ttname"><a href="class_contact_book.html#a7c890867c279b75735751d9632e23ec8">ContactBook::setName</a></div><div class="ttdeci">void setName(std::string name)</div><div class="ttdoc">Ustawia nazwę książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:232</div></div>
+<div class="ttc" id="aclass_contact_book_html_a8aae1d97243ffaa487423e7c3e4e8264"><div class="ttname"><a href="class_contact_book.html#a8aae1d97243ffaa487423e7c3e4e8264">ContactBook::sortContacts</a></div><div class="ttdeci">void sortContacts()</div><div class="ttdoc">Sortuje kontakty w książce kontaktowej.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:143</div></div>
+<div class="ttc" id="aclass_contact_book_html_a8bed3ed92ce2f6ed076b8d569c221793"><div class="ttname"><a href="class_contact_book.html#a8bed3ed92ce2f6ed076b8d569c221793">ContactBook::desc</a></div><div class="ttdeci">std::string desc</div><div class="ttdef"><b>Definition</b> ContactBook.h:28</div></div>
+<div class="ttc" id="aclass_contact_book_html_a92d45948e27f775db2cd7d98fe226ea7"><div class="ttname"><a href="class_contact_book.html#a92d45948e27f775db2cd7d98fe226ea7">ContactBook::ContactBook</a></div><div class="ttdeci">ContactBook()</div><div class="ttdoc">Konstruktor klasy ContactBook.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:8</div></div>
+<div class="ttc" id="aclass_contact_book_html_a9458f66cae32d330c00becbaab513824"><div class="ttname"><a href="class_contact_book.html#a9458f66cae32d330c00becbaab513824">ContactBook::checkData</a></div><div class="ttdeci">void checkData(std::string name, std::string desc)</div><div class="ttdoc">Sprawdza poprawność danych książki kontaktów.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:55</div></div>
+<div class="ttc" id="aclass_contact_book_html_ab00dae6c1a2e809e57aecf236763368d"><div class="ttname"><a href="class_contact_book.html#ab00dae6c1a2e809e57aecf236763368d">ContactBook::removeContact</a></div><div class="ttdeci">void removeContact(int id)</div><div class="ttdoc">Usuwa kontakt z książki kontaktowej.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:122</div></div>
+<div class="ttc" id="aclass_contact_book_html_ab03c5b328167b841962835637b765c3c"><div class="ttname"><a href="class_contact_book.html#ab03c5b328167b841962835637b765c3c">ContactBook::getContact</a></div><div class="ttdeci">Contact * getContact(int id)</div><div class="ttdoc">Zwraca wskaźnik do kontaktu o podanym identyfikatorze.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:297</div></div>
+<div class="ttc" id="aclass_contact_book_html_ab091f67ea36f17a0670f0172a6e76d7f"><div class="ttname"><a href="class_contact_book.html#ab091f67ea36f17a0670f0172a6e76d7f">ContactBook::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> ContactBook.h:27</div></div>
+<div class="ttc" id="aclass_contact_book_html_aca185331940dfe7771efdc31fff4da7e"><div class="ttname"><a href="class_contact_book.html#aca185331940dfe7771efdc31fff4da7e">ContactBook::getContactPairs</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; int, std::string &gt; &gt; getContactPairs()</div><div class="ttdoc">Zwraca kontener kontaktów jako wektor par.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:268</div></div>
+<div class="ttc" id="aclass_contact_book_html_aeb7623f2a6f4e698f0912db80d424ced"><div class="ttname"><a href="class_contact_book.html#aeb7623f2a6f4e698f0912db80d424ced">ContactBook::getNumContacts</a></div><div class="ttdeci">int getNumContacts()</div><div class="ttdoc">Zwraca liczbę kontaktów w książce kontaktowej.</div><div class="ttdef"><b>Definition</b> ContactBook.cpp:283</div></div>
+<div class="ttc" id="aclass_contact_html"><div class="ttname"><a href="class_contact.html">Contact</a></div><div class="ttdoc">klasa Contact</div><div class="ttdef"><b>Definition</b> Contact.h:22</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

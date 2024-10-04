@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:AppController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Contact.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:Contact.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\MENUOPTION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:MENUOPTION.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:Contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:ContactBook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBookModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:ContactBookModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:AppController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppView.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:AppView.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\MenuOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:MenuOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBookModel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:ContactBookModel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A79207F-5B55-4354-9FFA-AE483ECAFE51}|Project1.vcxproj|solutionrelative:ContactBook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xmemory||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\crt\\src\\vcruntime\\throw_bad_alloc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppController.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppController.cpp",
+              "RelativeDocumentMoniker": "AppController.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppController.cpp",
+              "RelativeToolTip": "AppController.cpp",
+              "ViewState": "AQIAADoCAAAAAAAAAAAAAPMBAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuOption.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\MenuOption.cpp",
+              "RelativeDocumentMoniker": "MenuOption.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\MenuOption.cpp",
+              "RelativeToolTip": "MenuOption.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactBook.h",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBook.h",
+              "RelativeDocumentMoniker": "ContactBook.h",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBook.h",
+              "RelativeToolTip": "ContactBook.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T19:28:58.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppView.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppView.cpp",
+              "RelativeDocumentMoniker": "AppView.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppView.cpp",
+              "RelativeToolTip": "AppView.cpp",
+              "ViewState": "AQIAAIABAAAAAAAAAAAAAGQBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppController.h",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppController.h",
+              "RelativeDocumentMoniker": "AppController.h",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\AppController.h",
+              "RelativeToolTip": "AppController.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T19:28:58.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.h",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Contact.h",
+              "RelativeDocumentMoniker": "Contact.h",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Contact.h",
+              "RelativeToolTip": "Contact.h",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T19:28:58.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Contact.cpp",
+              "RelativeDocumentMoniker": "Contact.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Contact.cpp",
+              "RelativeToolTip": "Contact.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactBookModel.h",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBookModel.h",
+              "RelativeDocumentMoniker": "ContactBookModel.h",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBookModel.h",
+              "RelativeToolTip": "ContactBookModel.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T19:28:58.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.h",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Menu.h",
+              "RelativeDocumentMoniker": "Menu.h",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\Menu.h",
+              "RelativeToolTip": "Menu.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T19:28:58.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuOption.h",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\MenuOption.h",
+              "RelativeDocumentMoniker": "MenuOption.h",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\MenuOption.h",
+              "RelativeToolTip": "MenuOption.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T19:28:58.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContactBookModel.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBookModel.cpp",
+              "RelativeDocumentMoniker": "ContactBookModel.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBookModel.cpp",
+              "RelativeToolTip": "ContactBookModel.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactBook.cpp",
+              "DocumentMoniker": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBook.cpp",
+              "RelativeDocumentMoniker": "ContactBook.cpp",
+              "ToolTip": "C:\\Users\\tom3k\\Desktop\\Contact Manager\\Project1\\ContactBook.cpp",
+              "RelativeToolTip": "ContactBook.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T19:28:58.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xstring",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xstring",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xstring",
+              "ViewState": "AQIAAAoJAAAAAAAAAAAMwBkJAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-05-11T12:24:54.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "utility",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\utility",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\utility",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\utility",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\utility",
+              "ViewState": "AQIAAH4CAAAAAAAAAIAwwI0CAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-05-11T12:24:54.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\xmemory",
+              "ViewState": "AQIAAHACAAAAAAAAAIAwwKgCAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-05-11T12:24:54.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "throw_bad_alloc.cpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\crt\\src\\vcruntime\\throw_bad_alloc.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAawCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2023-05-10T00:22:45.402Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

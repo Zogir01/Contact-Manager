@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Contact Manager: Dokumentacja klasy ContactBookModel</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Contact Manager
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Wczytywanie...</div>
+<div class="SRStatus" id="Searching">Szukanie...</div>
+<div class="SRStatus" id="NoMatches">Brak dopasowań</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_contact_book_model-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentacja klasy ContactBookModel</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>klasa <a class="el" href="class_contact_book_model.html" title="klasa ContactBookModel">ContactBookModel</a>  
+ <a href="class_contact_book_model.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_contact_book_model_8h_source.html">ContactBookModel.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a28ecb944ba2ca1fb0a4f4a282253309e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#a28ecb944ba2ca1fb0a4f4a282253309e">addBook</a> (std::string name, std::string desc)</td></tr>
+<tr class="memdesc:a28ecb944ba2ca1fb0a4f4a282253309e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dodaje nową książkę kontaktów do kontenera w modelu.  <br /></td></tr>
+<tr class="separator:a28ecb944ba2ca1fb0a4f4a282253309e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de7275b36ecec1b3b84dbd1038ddf33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#a0de7275b36ecec1b3b84dbd1038ddf33">deleteBook</a> (int index)</td></tr>
+<tr class="memdesc:a0de7275b36ecec1b3b84dbd1038ddf33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usuwa książkę kontaktów o podanym identyfikatorze.  <br /></td></tr>
+<tr class="separator:a0de7275b36ecec1b3b84dbd1038ddf33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef4d14df4d15aa6cc7b88acea9f549a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#aef4d14df4d15aa6cc7b88acea9f549a1">saveDataToFile</a> (std::string fileName)</td></tr>
+<tr class="memdesc:aef4d14df4d15aa6cc7b88acea9f549a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zapisuje dane książek kontaktowych do pliku binarnego.  <br /></td></tr>
+<tr class="separator:aef4d14df4d15aa6cc7b88acea9f549a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac18a0e9cc717b0cf2416bd8b03a6bcaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#ac18a0e9cc717b0cf2416bd8b03a6bcaa">loadDataFromFile</a> (std::string fileName)</td></tr>
+<tr class="memdesc:ac18a0e9cc717b0cf2416bd8b03a6bcaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wczytuje dane książek kontaktowych z pliku binarnego.  <br /></td></tr>
+<tr class="separator:ac18a0e9cc717b0cf2416bd8b03a6bcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30f8bc1b9ad33d5980d9074c336e29a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_contact_book.html">ContactBook</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#ac30f8bc1b9ad33d5980d9074c336e29a">getBook</a> (int index)</td></tr>
+<tr class="memdesc:ac30f8bc1b9ad33d5980d9074c336e29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwraca wskaźnik do książki kontaktowej o podanym identyfikatorze.  <br /></td></tr>
+<tr class="separator:ac30f8bc1b9ad33d5980d9074c336e29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6a090d572cb961cabd457e5087029f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#a9f6a090d572cb961cabd457e5087029f">getBooksVstr</a> ()</td></tr>
+<tr class="memdesc:a9f6a090d572cb961cabd457e5087029f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwraca wektor książek kontaktowych w formie tekstowej.  <br /></td></tr>
+<tr class="separator:a9f6a090d572cb961cabd457e5087029f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d82e7544a10e46c0e68edd31dda523"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#a57d82e7544a10e46c0e68edd31dda523">getNumBooks</a> ()</td></tr>
+<tr class="memdesc:a57d82e7544a10e46c0e68edd31dda523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwraca ilość książek kontaktów.  <br /></td></tr>
+<tr class="separator:a57d82e7544a10e46c0e68edd31dda523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a574aa59d99a0b33c82d2b797b39785f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_contact_book.html">ContactBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_book_model.html#a574aa59d99a0b33c82d2b797b39785f2">books</a></td></tr>
+<tr class="separator:a574aa59d99a0b33c82d2b797b39785f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>klasa <a class="el" href="class_contact_book_model.html" title="klasa ContactBookModel">ContactBookModel</a> </p>
+<p>Klasa <a class="el" href="class_contact_book_model.html" title="klasa ContactBookModel">ContactBookModel</a> jest głównym modelem aplikacji, który odpowiada za zarządzanie kolekcją książek kontaktow. Umożliwia zapis i odczyt danych z pliku, dodawanie oraz usuwanie konkretnych ksiazek. Jest to klasa ktora jest mocno powiazana z klasami <a class="el" href="class_contact_book.html" title="klasa ContactBook">ContactBook</a>, <a class="el" href="class_contact.html" title="klasa Contact">Contact</a> oraz <a class="el" href="class_app_controller.html" title="Klasa AppController.">AppController</a> - głównej klasy aplikacji. Klasa <a class="el" href="class_app_controller.html" title="Klasa AppController.">AppController</a> komunikuje się właśnie z modelem, rolą modelu jest więc komunikacja z klasami <a class="el" href="class_contact.html" title="klasa Contact">Contact</a> oraz <a class="el" href="class_contact_book.html" title="klasa ContactBook">ContactBook</a>.</p>
+<dl class="section version"><dt>Wersja</dt><dd>alpha 0.1 </dd></dl>
+</div><h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a28ecb944ba2ca1fb0a4f4a282253309e" name="a28ecb944ba2ca1fb0a4f4a282253309e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ecb944ba2ca1fb0a4f4a282253309e">&#9670;&#160;</a></span>addBook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ContactBookModel::addBook </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>desc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dodaje nową książkę kontaktów do kontenera w modelu. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Nazwa książki kontaktów. </td></tr>
+    <tr><td class="paramname">desc</td><td>Opis książki kontaktów. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0de7275b36ecec1b3b84dbd1038ddf33" name="a0de7275b36ecec1b3b84dbd1038ddf33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de7275b36ecec1b3b84dbd1038ddf33">&#9670;&#160;</a></span>deleteBook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ContactBookModel::deleteBook </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Usuwa książkę kontaktów o podanym identyfikatorze. </p>
+<p>Przeszukuje kontener książek kontaktów, w przypadku nie odnalezienia książki o podanym identyfikatorze, zwraca false. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Identyfikator książki kontaktów do usunięcia. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>True, jeśli książka kontaktów została pomyślnie usunięta. False, jeśli identyfikator jest nieprawidłowy. </dd></dl>
+
+</div>
+</div>
+<a id="ac30f8bc1b9ad33d5980d9074c336e29a" name="ac30f8bc1b9ad33d5980d9074c336e29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30f8bc1b9ad33d5980d9074c336e29a">&#9670;&#160;</a></span>getBook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_contact_book.html">ContactBook</a> * ContactBookModel::getBook </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zwraca wskaźnik do książki kontaktowej o podanym identyfikatorze. </p>
+<p>W przypadku nie odnalezienia książki o podanym identyfikatorze, metoda zwróci nullptr. Być może będzie konieczne aby metoda rzucała odpowiedni wyjątek. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Identyfikator książki kontaktów. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wskaźnik do książki kontaktowej lub nullptr, jeśli indeks jest nieprawidłowy. </dd></dl>
+
+</div>
+</div>
+<a id="a9f6a090d572cb961cabd457e5087029f" name="a9f6a090d572cb961cabd457e5087029f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6a090d572cb961cabd457e5087029f">&#9670;&#160;</a></span>getBooksVstr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; ContactBookModel::getBooksVstr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zwraca wektor książek kontaktowych w formie tekstowej. </p>
+<p>Zwracana forma tekstowa to zmienna typu std::string, która łączy nazwę oraz opis książki kontaktów </p><dl class="section return"><dt>Zwraca</dt><dd>Wektor książek kontaktów w formie tekstowej. </dd></dl>
+
+</div>
+</div>
+<a id="a57d82e7544a10e46c0e68edd31dda523" name="a57d82e7544a10e46c0e68edd31dda523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d82e7544a10e46c0e68edd31dda523">&#9670;&#160;</a></span>getNumBooks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ContactBookModel::getNumBooks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zwraca ilość książek kontaktów. </p>
+<dl class="section return"><dt>Zwraca</dt><dd>Ilość książek kontaktów. </dd></dl>
+
+</div>
+</div>
+<a id="ac18a0e9cc717b0cf2416bd8b03a6bcaa" name="ac18a0e9cc717b0cf2416bd8b03a6bcaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac18a0e9cc717b0cf2416bd8b03a6bcaa">&#9670;&#160;</a></span>loadDataFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ContactBookModel::loadDataFromFile </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wczytuje dane książek kontaktowych z pliku binarnego. </p>
+<p>Implementacja tej metody znajduje się w folderze projektu - "do wprowadzenia". Występuje problem podczas implementacji w rozwiązaniu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>Nazwa pliku. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Wyjątki</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>Jeśli nie można otworzyć pliku lub wystąpił błąd odczytu liczby obiektów. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Uwaga</dt><dd>Metoda niedokończona. </dd></dl>
+
+</div>
+</div>
+<a id="aef4d14df4d15aa6cc7b88acea9f549a1" name="aef4d14df4d15aa6cc7b88acea9f549a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef4d14df4d15aa6cc7b88acea9f549a1">&#9670;&#160;</a></span>saveDataToFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ContactBookModel::saveDataToFile </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zapisuje dane książek kontaktowych do pliku binarnego. </p>
+<p>Implementacja tej metody znajduje się w folderze projektu - "do wprowadzenia". Występuje problem podczas implementacji w rozwiązaniu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>Nazwa pliku. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Wyjątki</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>Jeśli nie można otworzyć pliku. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Uwaga</dt><dd>Metoda niedokończona. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a574aa59d99a0b33c82d2b797b39785f2" name="a574aa59d99a0b33c82d2b797b39785f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a574aa59d99a0b33c82d2b797b39785f2">&#9670;&#160;</a></span>books</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_contact_book.html">ContactBook</a>&gt; ContactBookModel::books</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>kontener książek kontaktowych - obiektów klasy <a class="el" href="class_contact_book.html" title="klasa ContactBook">ContactBook</a> </p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Users/tom3k/Documents/!programowanie/!Contact Manager  visual studio/Project1/<a class="el" href="_contact_book_model_8h_source.html">ContactBookModel.h</a></li>
+<li>C:/Users/tom3k/Documents/!programowanie/!Contact Manager  visual studio/Project1/<a class="el" href="_contact_book_model_8cpp.html">ContactBookModel.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>
