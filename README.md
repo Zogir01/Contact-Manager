@@ -1,6 +1,7 @@
-# Contact-Manager
+## Contact-Manager
 
-A simple project for university. More attention was given to creating clear documentation using the Doxygen tool.
+This is our simple project for university. The application is used for managing contacts.
+Although the code of the program contains many unimplemented functions, our team focused more on creating clear documentation using the Doxygen tool.
 
 The main objective of the application was to implement the MVC pattern, introduce a clear user interface, and to implement the appropriate algorithms to ensure that the project meets the requirements given to the project group.
 
@@ -14,9 +15,9 @@ The main objective of the application was to implement the MVC pattern, introduc
 
 ![image_2](image_2.png)
 
-## Authors
+# Authors
 
-- Tomasz Wojtasek
-- Paweł Kurek
+- ![Tomasz Wojtasek](https://github.com/Zogir01)
+- ![Paweł Kurek](https://github.com/PANP4W3L)
   
 [Paper Documentation (.pdf)](Paper_Docs.pdf)
