@@ -15,9 +15,15 @@ The main objective of the application was to implement the MVC pattern, introduc
 
 ![image_2](image_2.png)
 
+# Paper Documentation
+
+[Paper Documentation (.pdf)](Paper_Docs.pdf)
+
+Doxygen html documentation is located in the repository folder.
+
 # Authors
 
-- ![Tomasz Wojtasek](https://github.com/Zogir01)
-- ![Paweł Kurek](https://github.com/PANP4W3L)
+- [Tomasz Wojtasek (link to github)](https://github.com/Zogir01)
+- [Paweł Kurek (link to github)](https://github.com/PANP4W3L)
   
-[Paper Documentation (.pdf)](Paper_Docs.pdf)
+
