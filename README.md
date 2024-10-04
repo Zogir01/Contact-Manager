@@ -6,7 +6,7 @@ The main objective of the application was to implement the MVC pattern, introduc
 
 # UML Class Diagram
 
-![image](UML Class Diagram.png)
+![image](UML_Class_Diagram.png)
 
 # User Interface
 
@@ -19,4 +19,4 @@ The main objective of the application was to implement the MVC pattern, introduc
 - Tomasz Wojtasek
 - Paweł Kurek
   
-[Paper Documentation (.pdf)](Paper Docs.pdf)
+[Paper Documentation (.pdf)](Paper_Docs.pdf)
