@@ -1,9 +1,11 @@
-## Contact-Manager
+## Contact Manager
 
-This is our simple project for university. The application is used for managing contacts.
-Although the code of the program contains many unimplemented functions, our team focused more on creating clear documentation using the Doxygen tool.
+This is our simple project for university. The application is designed for managing contacts. 
+Although the code contains some unimplemented functions and areas for optimization, our goal was to carefully plan the application's operations and provide proper documentation using [Doxygen](https://github.com/doxygen/doxygen).
 
-The main objective of the application was to implement the MVC pattern, introduce a clear user interface, and to implement the appropriate algorithms to ensure that the project meets the requirements given to the project group.
+The main objective of the application was to implement the MVC pattern, introduce a clear user interface, and develop appropriate algorithms to ensure that the project meets the requirements provided to the project group.
+
+To create a graphical user interface, we used the [PDCurses](https://pdcurses.org/) library.
 
 # UML Class Diagram
 
