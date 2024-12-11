@@ -1,7 +1,7 @@
 # Contact Manager
 
-This is our simple project for university. The application is designed for managing contacts. 
-Although the code contains some unimplemented functions and areas for optimization, our goal was to carefully plan the application's operations and provide proper documentation using [Doxygen](https://github.com/doxygen/doxygen).
+The application is designed for managing contacts. Although the code contains some unimplemented functions and areas for optimization, 
+our goal was to carefully plan the application's operations and provide proper documentation using [Doxygen](https://github.com/doxygen/doxygen).
 
 The main objective of the application was to implement the MVC pattern, introduce a clear user interface, and develop appropriate algorithms to ensure that the project meets the requirements provided to the project group.
 
